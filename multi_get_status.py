@@ -40,8 +40,3 @@ def multiprocess_get_status(read_path, out_path):
     pool.close()
     pool.join()
     return time.time()-start_time
-
-
-if __name__ == "__main__":
-    print(multiprocess_get_status("C:\\Users\\顾先生\\Desktop\\test.csv", "C:\\Users\\顾先生\\Desktop\\out3.csv"))
-
