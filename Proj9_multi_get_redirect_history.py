@@ -41,39 +41,6 @@ def write_html(html_written_file,content):
         # encoding="utf_8"是为了避免乱码问题
         f.write(content)
 
-# def get_redirect_history(url_csv_file,result_csv_file,result_html_file):
-#     """
-#     :param url_csv_file: string,存放url的CSV文件路径名
-#     :param result_csv_file: string,存放结果的CSV文件路径名
-#     :param result_html_file: string,存放结果的html文件路径名
-#     :return: list,[url,状态码]
-#     """
-#
-#     write_html("<html>\
-#                    <head>redirect history</head>\
-#                  <body>",result_html_file)# 将HTML头部先写入HTML文件中。
-#     url_list=read_csv(url_csv_file) # read_csv函数以list形式返回读到的url
-#     numbers_of_url = len(url_list)
-#     for url in url_list:  # 遍历list中的每个元素
-#         response = requests.get(url)  # 获取每一行的url内容并且调用requests.get方法将调用url相关的内容储存在response变量中。
-#         if response.history:  # 如果response.history有内容，则说明有重定向发生了。
-#             print("<p>Request was redirected</p>", file=f_html)
-#             print("Request was redirected", file=f2_result)
-#             for resp in response.history:  # 重定向的历史
-#                 print('<p>' + resp.url + '->' + '</p>', file=f_html)
-#                 print(resp.url + '->', file=f2_result)
-#             print('<p>' + response.url + '</p>' + '&nbsp', file=f_html)
-#             print(response.url + '\n', file=f2_result)  # 最终的地址
-#         else:  # 没有重定向发生，输出没有重定向即可。
-#             print('<p>' + url + '</p>', file=f_html)
-#             print("<p>Request was not redirected</p>\n", file=f_html)
-#             print(url, file=f2_result)
-#             print("Request was not redirected\n", file=f2_result)
-#     print('''</body>
-#                    </html>''', file=f_html)  # 在末尾将HTML的尾部补全。
-#     r = requests.get(url)
-#     return [url, r.status_code]
-
 
 def get_redirect_history(url,result_csv_file,result_html_file):
     """
@@ -98,17 +65,6 @@ def get_redirect_history(url,result_csv_file,result_html_file):
         write_csv(result_csv_file,url+'\n')
         # write_html(result_html_file, "<p>1 </p>")
         write_csv(result_csv_file, '\n')  # 写完一个网址的重定向历史后 换行
-
-
-# def process_get_status(url, written_file):
-#     """
-#     单个进程运行的获得url状态并将之写入csv文件的函数
-#     :param url: string,url
-#     :param written_file: string,被写文件路径名
-#     :return: void
-#     """
-#     status_list = get_status(url)
-#     write_csv(written_file, status_list)
 
 
 def multiprocess_get_redirect_history(url_csv_file, result_csv_file, result_html_file):
