@@ -1,0 +1,12 @@
+Request was not redirected
+https://www.jianshu.com/p/d8168034917c
+
+Request was redirected
+https://httpbin.davecheney.com/redirect/6->
+https://httpbin.davecheney.com/relative-redirect/5->
+https://httpbin.davecheney.com/relative-redirect/4->
+https://httpbin.davecheney.com/relative-redirect/3->
+https://httpbin.davecheney.com/relative-redirect/2->
+https://httpbin.davecheney.com/relative-redirect/1->
+https://httpbin.davecheney.com/get
+
