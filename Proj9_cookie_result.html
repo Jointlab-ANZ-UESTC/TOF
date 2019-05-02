@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style/ext-all.css?v=1.00"/>
+    <link type="text/css" rel="stylesheet" href="themes/darkBlue/skins/brown/css/main.css?v=1.00"/>
+    <link type="text/css" rel="stylesheet" href="themes/darkBlue/skins/brown/css/xtheme.css?v=1.00"/>
+    <script type="text/javascript" src="script/top.js?v=1.00"></script>
+    <title>电子科技大学信息门户</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22625429-1']);
+  _gaq.push(['_setDomainName', '.uestc.edu.cn']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="container">
+
+
+<div id="header">
+    <div id="headerFrame">
+        <div id="headerInnerFrame">
+            <div id="headerTop">
+                <div id="headerLeft"></div>
+                <div id="headerRight">
+                    <div id="topMenu">
+                        <div id="topMenuLeft"></div><div id="topMenuRight"></div>
+                        <ul>
+                            
+                              <li>欢迎您：孙博艺</li>
+                            
+                            
+                            <li><a href="#" onclick="return showMsgBox();" class="siteMsg"><img src="images/s.gif" alt=""/><span id="newMsgCount"></span></a></li>
+                            <li><a href="#" onclick="return showSelectStyleMenu(this,event);" class="selectStyle"><img src="images/s.gif" alt=""/></a></li>
+                            <!--<li><a href="#" onclick="return showUserSettingMenu(this,event);" class="userInfo"><img src="images/s.gif" alt=""/></a></li>-->
+                            <li><a href="http://idas.uestc.edu.cn/authserver/index.do?tab=passwordChange&service=http://portal.uestc.edu.cn" class="userInfo"><img src="images/s.gif" alt=""/></a></li>
+                            <!--<li><a href="siteMapView.portal" class="siteMap"><img src="images/s.gif" alt=""/></a></li>-->
+                            <li><a href="logout.portal" class="siteLogout"><img src="images/s.gif" alt=""/></a></li>
+                        </ul>
+                        
+                    </div>
+                    <div id="headerMsg"></div>
+                </div>
+            </div>
+            <div id="mainMenu" class="clearFix">
+                <div id="mainMenuLeft"><a href="#" id="hideMenuButton" onclick="return toggleMenuMode();" title="点击切换到隐藏菜单模式"></a></div>
+                <div id="mainMenuRight">
+                    
+                    <form method="post" action="search.portal" target="_blank" style="display:inline;"><input name="term" type="text" value='' size="10" class="ipt"/><input name="submit" type="submit" value="" class="search-btn"/></form>
+                </div>
+                <div id="mainMenuContent"><div style="width:3000px;"><ul>
+                    
+                        
+                            
+                                
+                                    
+                                    <li class="current" id="pp368"><a><div><span>首页</span><input type="text" class="editTabTitle" onblur="editTabTitle('p368',this);" onkeypress="editTabTitle('p368',this,event);" style="display:none;"/></div></a></li>
+                                
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                    <li><a href="?.pn=p346"><div>教务系统</div></a></li>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                    <li><a href="?.pn=p3977"><div>学工系统</div></a></li>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                    <li><a href="?.pn=p364"><div>个人服务</div></a></li>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                    <li><a href="?.pn=p1876"><div>咨询服务</div></a></li>
+                                
+                            
+                        
+                    
+                </ul>
+                    <div id="addTab"><a href="#" onclick="Element.hide(this);Element.show(this.nextSibling);this.nextSibling.firstChild.focus();return false;"><div>添加页面</div></a><div style="display:none;"><input type="text" class="addPageTitle" onblur="addTab(this);" onkeypress="addTab(this,event);"/></div></div>
+                </div></div>
+            </div>
+        </div>
+    </div>
+</div><script type="text/javascript">initTopState(true);</script>
+<div id="tbody" class="tbodyLeft">
+    <table cellpadding="0" cellspacing="0" id="mainContent">
+        <tr>
+            <td id="sideMenu" style="display:none;">
+                <div id="sideMenuTop"></div>
+                <div id="sideMenuContent">
+                    
+
+
+
+                </div>
+                <div class="sideMenuPage clearFix" style="display:none;">
+                    <input type="text" class="addPageTitle" id="addFirstLevelPage" onblur="addFirstLevelPage(this);" onkeypress="addFirstLevelPage(this,event);"/></div>
+                <div id="sideMenuBottom"></div>
+            </td>
+            <td style="vertical-align:top;">
+                <div id="mainContentTop" class="clearFix"><div id="mainContentTopLeft"></div><div id="mainContentTopRight"></div></div>
+                <div><div id="mainContentFrame">
+<table id="porletsLayout">
+    <tr>
+        <td width="50%" id="col1">
+            <div class="placeholder">&nbsp;</div>
+    
+    <div class="portlet" id="pf22271" onmouseover="showPortletToolBar(this);" onmouseout="hidePortletToolBar(this);" isFixed="ture">
+        <div class="portletFrame">
+            <div class="portletHeader clearFix">
+                <div class="portletHeaderFrame clearFix">
+                    <div class="title"><a name="anchorf22271"></a><span >门户公告</span>&nbsp;</div>
+                    <div class="toolButton" style="display:none;" id="tbf22271" urls="{view:'',edit:'',config:'',authset:'',borderStyle:'',help:'?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjIyMjcxfGhlbHB8bm9ybWFsfA__'}"><a href="#" class="more" onclick="return showPortletMenu(this,event);"></a>
+                        <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjIyMjcxfHZpZXd8bWluaW1pemVkfA__&.nctp=true" title="最小化" class="minimize"></a>
+                            <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjIyMjcxfHZpZXd8bWF4aW1pemVkfA__&.nctp=true" title="最大化" class="maximize"></a>
+                            
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="portletContent">
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+<script type="text/javascript">
+    $import('/bulletin/../core/script/rss.js',
+                '/bulletin/style/bulletin.css',
+                '/bulletin/../core/style/rss.css');
+</script>
+<!-- bulletinDashBorad.jsp -->
+
+	<ul id="blf22271" class="rss-container clearFix">
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2018-09-27&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='云存储系统维护通知()' class="rss-title" onclick="return hideNew('new0')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe409&bulletinId=600396c7-c220-11e8-8df4-13b957c2e623" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin600396c7-c220-11e8-8df4-13b957c2e623',this);">
+				 
+					云存储系统维护通知
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin600396c7-c220-11e8-8df4-13b957c2e623',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2018-09-27&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='新版学生邮件系统上线通知(2010-2017级学生)()' class="rss-title" onclick="return hideNew('new1')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe409&bulletinId=524a37ab-6fd6-11e8-b08f-5d9cdecaf8ee" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin524a37ab-6fd6-11e8-b08f-5d9cdecaf8ee',this);">
+				 
+					新版学生邮件系统上线通知(2010-2017级学生...
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin524a37ab-6fd6-11e8-b08f-5d9cdecaf8ee',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2018-09-27&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='电子科技大学2018级新生邮箱使用通知()' class="rss-title" onclick="return hideNew('new2')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe409&bulletinId=5921ecf1-ba47-11e8-880a-ab78440b7639" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin5921ecf1-ba47-11e8-880a-ab78440b7639',this);">
+				 
+					电子科技大学2018级新生邮箱使用通知
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin5921ecf1-ba47-11e8-880a-ab78440b7639',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2018-09-11&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='成电后勤服务报修小程序上线啦()' class="rss-title" onclick="return hideNew('new3')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe409&bulletinId=a802af5a-b596-11e8-bc71-c5ed981adde1" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletina802af5a-b596-11e8-bc71-c5ed981adde1',this);">
+				 
+					成电后勤服务报修小程序上线啦
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletina802af5a-b596-11e8-bc71-c5ed981adde1',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2017-05-17&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='“勒索病毒”预防措施()' class="rss-title" onclick="return hideNew('new4')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe409&bulletinId=abbff0d2-3863-11e7-b6b6-5f21c4a4e005" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletinabbff0d2-3863-11e7-b6b6-5f21c4a4e005',this);">
+				 
+					“勒索病毒”预防措施
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletinabbff0d2-3863-11e7-b6b6-5f21c4a4e005',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2016-09-14&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='互动课堂（新建22间教室）多媒体使用指南()' class="rss-title" onclick="return hideNew('new5')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe409&bulletinId=3126a9e7-7a18-11e6-ae5a-498505fa41e7" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin3126a9e7-7a18-11e6-ae5a-498505fa41e7',this);">
+				 
+					互动课堂（新建22间教室）多媒体使用指南
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin3126a9e7-7a18-11e6-ae5a-498505fa41e7',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+	</ul>
+	<div class="clipMore">
+	  <a href="detach.portal?action=bulletinsMoreView&.ia=false&.f=f22271&.pmn=view&.pen=pe409 "target="_blank"><img src="images/s.gif" alt="" /></a>
+	</div>
+
+
+
+     <script type="text/javascript">
+         $('blf22271').style.height = '280' + 'px';
+     </script>
+
+
+</div>
+        </div>
+    </div>
+
+
+    
+    <div class="portlet" id="pf22272" onmouseover="showPortletToolBar(this);" onmouseout="hidePortletToolBar(this);" isFixed="ture">
+        <div class="portletFrame">
+            <div class="portletHeader clearFix">
+                <div class="portletHeaderFrame clearFix">
+                    <div class="title"><a name="anchorf22272"></a><span >门户相关</span>&nbsp;</div>
+                    <div class="toolButton" style="display:none;" id="tbf22272" urls="{view:'',edit:'',config:'',authset:'',borderStyle:'',help:'?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjIyMjcyfGhlbHB8bm9ybWFsfA__'}"><a href="#" class="more" onclick="return showPortletMenu(this,event);"></a>
+                        <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjIyMjcyfHZpZXd8bWluaW1pemVkfA__&.nctp=true" title="最小化" class="minimize"></a>
+                            <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjIyMjcyfHZpZXd8bWF4aW1pemVkfA__&.nctp=true" title="最大化" class="maximize"></a>
+                            
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="portletContent">
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+<script type="text/javascript">
+    $import('/bulletin/../core/script/rss.js',
+                '/bulletin/style/bulletin.css',
+                '/bulletin/../core/style/rss.css');
+</script>
+<!-- bulletinDashBorad.jsp -->
+
+	<ul id="blf22272" class="rss-container clearFix">
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2019-01-04&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='信息化服务中的常见问题及处理方法()' class="rss-title" onclick="return hideNew('new0')" href="https://info.uestc.edu.cn/cjwt2/zhmm.htm" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletina034f747-0f1b-11e9-a013-6dce73b418d5',this);">
+				 
+					信息化服务中的常见问题及处理方法
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletina034f747-0f1b-11e9-a013-6dce73b418d5',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2017-01-09&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='无法访问应用系统的解决方法()' class="rss-title" onclick="return hideNew('new1')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe824&bulletinId=63089eac-e9e7-11de-a17b-ebe083a9498a" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin63089eac-e9e7-11de-a17b-ebe083a9498a',this);">
+				 
+					无法访问应用系统的解决方法
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin63089eac-e9e7-11de-a17b-ebe083a9498a',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2014-04-22&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='访问业务系统页面显示不正常的解决方法()' class="rss-title" onclick="return hideNew('new2')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe824&bulletinId=4ce384eb-c9cb-11e3-b421-2ba2c46bb0b4" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin4ce384eb-c9cb-11e3-b421-2ba2c46bb0b4',this);">
+				 
+					访问业务系统页面显示不正常的解决方法
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin4ce384eb-c9cb-11e3-b421-2ba2c46bb0b4',this.previousSibling);"></div><textarea style="display: none;">
+				无概要
+				
+			</textarea></li>
+		
+			<li >
+
+			<span class="rss-time">
+			
+             
+			    
+			
+                
+                <span style="display:block;float:left;">
+			    
+                 </span>   &nbsp;&nbsp;
+			      2009-06-05&nbsp;&nbsp;&nbsp;&nbsp;
+			      
+		    </span></span>
+            <span style="padding-left:0px;">
+            <a href="#"  class="rss-btn-close" onclick="return showRssContent(this);"><img src="images/s.gif" alt="" /></a><a  title='门户使用小贴士()' class="rss-title" onclick="return hideNew('new3')" href="detach.portal?action=bulletinBrowser&amp;.ia=false&amp;.pmn=view&amp;.pen=pe824&bulletinId=9ccf389b-51b5-11de-8353-4d56960158e1" target="_blank"  onclick="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin9ccf389b-51b5-11de-8353-4d56960158e1',this);">
+				 
+					门户使用小贴士
+				
+				
+			</a>
+            </span>
+            <div class="rss-content" style="display: none;"
+				 onmouseover="markAsRead('com.wiscom.portal.application.bulletin.model.Bulletin9ccf389b-51b5-11de-8353-4d56960158e1',this.previousSibling);"></div><textarea style="display: none;">
+				
+				
+					门户使用小贴士
+				
+			</textarea></li>
+		
+	</ul>
+	<div class="clipMore">
+	  <a href="detach.portal?action=bulletinsMoreView&.ia=false&.f=f22272&.pmn=view&.pen=pe824 "target="_blank"><img src="images/s.gif" alt="" /></a>
+	</div>
+
+
+
+     <script type="text/javascript">
+         $('blf22272').style.height = '108' + 'px';
+     </script>
+
+
+</div>
+        </div>
+    </div>
+
+
+
+        </td><td width="50%" id="col2">
+			<div class="placeholder">&nbsp;</div>
+    
+    <div class="portlet" id="pf947" onmouseover="showPortletToolBar(this);" onmouseout="hidePortletToolBar(this);" isFixed="ture">
+        <div class="portletFrame">
+            <div class="portletHeader clearFix">
+                <div class="portletHeaderFrame clearFix">
+                    <div class="title"><a name="anchorf947"></a><span >本科生快速通道</span>&nbsp;</div>
+                    <div class="toolButton" style="display:none;" id="tbf947" urls="{view:'',edit:'',config:'',authset:'',borderStyle:'',help:''}"><a href="#" class="more" onclick="return showPortletMenu(this,event);"></a>
+                        <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8Zjk0N3x2aWV3fG1pbmltaXplZHw_&.nctp=true" title="最小化" class="minimize"></a>
+                            <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8Zjk0N3x2aWV3fG1heGltaXplZHw_&.nctp=true" title="最大化" class="maximize"></a>
+                            
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="portletContent"><br />
+<table border="0" cellspacing="0" cellpadding="0" align="center" style="width: 100%; height: 186px">
+    <tbody>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td><a target="_blank" href="http://www.uestc.edu.cn"><b>学校主页</b></a></td>
+            <td><a target="_blank" href="http://www.zzb.uestc.edu.cn/">党委组织部</a></td>
+            <td><a target="_blank" href="http://www.tuanwei.uestc.edu.cn/">校团委</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td><a target="_blank" href="http://www.zzb.uestc.edu.cn/"><br />
+            </a><a target="_blank" href="http://www.jwc.uestc.edu.cn/"><strong>教务处</strong></a></td>
+            <td><a target="_blank" href="http://www.tuanwei.uestc.edu.cn/"><br />
+            </a><a target="_blank" href="http://www.xgb.uestc.edu.cn/">学工部</a></td>
+            <td><a target="_blank" href="http://www.lib.uestc.edu.cn/"><br />
+            图书馆</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td><a target="_blank" href="http://www.zs.uestc.edu.cn/"><br />
+            本科生招生</a></td>
+            <td><a target="_blank" href="http://www.jiuye.org/"><br />
+            本科生就业</a></td>
+            <td><a target="_blank" href="http://ditu.uestc.edu.cn/"><br />
+            校园地图</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td color="red"><a target="_blank" href="http://eams.uestc.edu.cn/eams/"><b><br />
+            </b><span style="color: #ff0000"><b>教务系统</b></span></a></td>
+            <td><a target="_blank" href="http://sa.uestc.edu.cn/epstar/web/swms/mainframe/homeWithRoleSelector.jsp"><br />
+            学工系统</a></td>
+            <td><a target="_blank" href="http://ioa.uestc.edu.cn/"><b><br />
+            协同办公</b></a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td><a target="_blank" href="http://ecard.uestc.edu.cn"><br />
+            一卡通</a></td>
+            <td><a target="_blank" href="http://lx.uestc.edu.cn/caslogin.jsp"><br />
+            离校系统</a></td>
+            <td><a target="_blank" href="http://www.bb9.uestc.edu.cn/webapps/bb-cas_dzkd-bb_bb60/caslogin.jsp"><br />
+            课程中心</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td><a target="_blank" href="http://www.jpkc.uestc.edu.cn/"><br />
+            精品课程</a></td>
+            <td><a target="_blank" href="https://mail.std.uestc.edu.cn/"><br />
+            学生邮箱</a></td>
+            <td><a target="_blank" href="http://bbs.stuhome.net/"><br />
+            清水河畔</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td><a target="_blank" href="http://istudy.uestc.edu.cn/casLogin.jsp"><br />
+            自主学习平台</a></td>
+            <td><a target="_blank" href="http://faculty.uestc.edu.cn/"><br />
+            教师个人主页</a></td>
+            <td><a target="_blank" href="http://www.icourses.edu.cn/"><br />
+            视频公开课</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;<br />
+            &nbsp;</td>
+            <td><br />
+            <a target="_blank" href="http://www.wlxt.uestc.edu.cn/wlxt/">网络学堂</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><br />
+            <a target="_blank" href="http://sic.uestc.edu.cn/casLogin.jsp">学生个人信息中心</a></td>
+            <td><br />
+            <a target="_blank" href="http://222.197.182.10">外事</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td><br />
+            <p><a target="_blank" href="http://yjsjy.uestc.edu.cn/pyxx/jzsso/login">研究生系统</a></p>
+            </td>
+            <td><br />
+            <a target="_blank" href="http://study.uestc.edu.cn/mooc/">成电慕课</a></td>
+            <td><br />
+            <a target="_blank" href="http://user.ms.uestc.edu.cn/login">正版软件</a></td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td width="5%">&nbsp;</td>
+        </tr>
+    </tbody>
+</table></div>
+        </div>
+    </div>
+
+
+    
+    <div class="portlet" id="pf36535" onmouseover="showPortletToolBar(this);" onmouseout="hidePortletToolBar(this);" isFixed="ture">
+        <div class="portletFrame">
+            <div class="portletHeader clearFix">
+                <div class="portletHeaderFrame clearFix">
+                    <div class="title"><a name="anchorf36535"></a><span >欢迎关注和下载~.</span>&nbsp;</div>
+                    <div class="toolButton" style="display:none;" id="tbf36535" urls="{view:'',edit:'',config:'',authset:'',borderStyle:'',help:''}"><a href="#" class="more" onclick="return showPortletMenu(this,event);"></a>
+                        <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjM2NTM1fHZpZXd8bWluaW1pemVkfA__&.nctp=true" title="最小化" class="minimize"></a>
+                            <a href="?.p=Znxjb20ud2lzY29tLnBvcnRhbC5zaXRlLmltcGwuRnJhZ21lbnRXaW5kb3d8ZjM2NTM1fHZpZXd8bWF4aW1pemVkfA__&.nctp=true" title="最大化" class="maximize"></a>
+                            
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="portletContent"><br />
+<table cellspacing="0" cellpadding="0" align="center" border="0" name="select" style="height: 30px; width: 100%">
+    <tbody>
+        <tr>
+            <td valign="middle" align="center"><img alt="" width="80" height="80" src="http://portal.uestc.edu.cn/attachmentDownload.portal?attachmentId=a4aa54fd-ffd2-11e6-9e96-75a4f82ba432" /><br />
+            &nbsp;</td>
+            <td valign="middle" align="center"><img alt="" width="80" height="80" src="http://portal.uestc.edu.cn/attachmentDownload.portal?attachmentId=420fc44b-ffbd-11e6-9e96-75a4f82ba432" /><br />
+            &nbsp;</td>
+            <td valign="middle" align="center"><img alt="" width="82" height="82" src="http://portal.uestc.edu.cn/attachmentDownload.portal?attachmentId=e4cfe713-f036-11e7-9e96-75a4f82ba432" /><br />
+            &nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="middle" align="center">电子科技大学</td>
+            <td valign="middle" align="center">
+            <div>信息中心</div>
+            </td>
+            <td style="text-align: center">智慧成电</td>
+        </tr>
+        <tr>
+            <td valign="middle" align="center">&nbsp;</td>
+            <td valign="middle" align="center">&nbsp;</td>
+            <td style="text-align: center">&nbsp;</td>
+        </tr>
+    </tbody>
+</table></div>
+        </div>
+    </div>
+
+
+
+        </td>
+    </tr>
+</table></div></div>
+                <div id="mainContentBottom" class="clearFix"><div id="mainContentBottomLeft"></div><div id="mainContentBottomRight"></div></div>                
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="footer">
+    <div id="footerLeft"></div>
+    <div id="footerRight"></div>
+    <div id="footerMsg"><div style="padding:2px;"><a href="siteMapView.portal">站点地图</a></div>电子科技大学数字化校园信息门户<div>2011.01版权所有</div></div>
+</div>
+<div id="portletMenu" style="display:none;">
+    <a href="#" class="view">返回显示</a>
+    <a href="#" class="config">栏目配置</a>
+    <a href="#" class="edit">个性配置</a>
+    <a href="#" class="authset">认证配置</a>
+    <a href="#" class="borderStyle" onclick="return selectBorderStyle('p'+options.cPortlet,'darkBlue/brown','themes/darkBlue/skins/brown');">边框风格</a>
+    <a href="#" class="help">查看帮助</a>
+</div>
+
+<div id="selectStyleMenu" style="display:none;">    <a href="#" onclick="return selectStyle('default/green','themes/default/skins/green',true);" title="green"><img src="themes/default/skins/green/preview.png" alt="green"/></a>    
+    <a href="#" onclick="return selectStyle('default/default','themes/default/skins/default',true);" title="blue"><img src="themes/default/skins/default/preview.png" alt="blue"/></a>    
+    <a href="#" onclick="return selectStyle('default/fresh','themes/default/skins/fresh',true);" title="清新草地"><img src="themes/default/skins/fresh/preview.png" alt="清新草地"/></a>    
+    <a href="#" onclick="return selectStyle('default/red','themes/default/skins/red',true);" title="red"><img src="themes/default/skins/red/preview.png" alt="red"/></a>    
+    <a href="#" onclick="return selectStyle('default/brown','themes/default/skins/brown',true);" title="brown"><img src="themes/default/skins/brown/preview.png" alt="brown"/></a>    
+    <a href="#" onclick="return selectStyle('darkBlue/default','themes/darkBlue/skins/default',false);" title="回归自然"><img src="themes/darkBlue/skins/default/preview.png" alt="回归自然"/></a>    
+    <a href="#" onclick="return selectStyle('darkBlue/red','themes/darkBlue/skins/red',false);" title="red"><img src="themes/darkBlue/skins/red/preview.png" alt="red"/></a>    
+    <a href="#" onclick="return selectStyle('darkBlue/darkGreen','themes/darkBlue/skins/darkGreen',false);" title="惬意田园"><img src="themes/darkBlue/skins/darkGreen/preview.png" alt="惬意田园"/></a>    
+    <a href="#" onclick="return selectStyle('darkBlue/brown','themes/darkBlue/skins/brown',false);" title="香浓咖啡"><img src="themes/darkBlue/skins/brown/preview.png" alt="香浓咖啡"/></a>    
+    <a href="#" onclick="return selectStyle('uestc/default','themes/uestc/skins/default',true);" title="uestc"><img src="themes/uestc/skins/default/preview.png" alt="uestc"/></a>    
+</div>
+<div id="addContentMenu" style="display:none;">
+    <a href="#" onclick="return showAddFirstLevelPage();">添加子页</a>
+    <a href="#" onclick="return removeTab();">删除本页</a>
+    <a href="#" onclick="return movePage('up');">左移</a>
+    <a href="#" onclick="return movePage('down');">右移</a>
+    
+</div>
+<div id="sideMenuToolMenu" style="display:none;">
+    <a href="#" onclick="return showAddSecondLevelPage();" id="sideMenuAddPage">添加页</a>
+    <a href="#" onclick="return renamePage();">重命名</a>
+    <a href="#" onclick="return removeTab();">删除</a>
+    <a href="#" onclick="return movePage('up');">上移</a>
+    <a href="#" onclick="return movePage('down');">下移</a>
+</div>
+<div id="userSettingMenu" style="display:none;">
+    <a href="changePassword.portal">密码修改</a>
+    <a href="userAttributesEdit.portal">个人资料修改</a>
+    <a href="#" onclick="if (confirm('警告：你的所有个性化页面将丢失，您确认要将界面恢复到默认配置吗?')) location.href='personalSiteRebuild.portal'">恢复配置</a>
+</div>        
+<div id="addRssEntityMenu" style="display:none;" onclick="Event.stop(event);">
+<div style="width:270px;">请输入RSS地址链接，您加入的RSS栏目将会被管理员审核并可能被共享</div>
+    <form action="" method="post" onsubmit="return addRssEntity(this);">
+        <input type="text" name="url" size="35" value="http://"/>&nbsp;&nbsp;<input type="button" value="添加" onclick="return addRssEntity(this.form);"/><span class="warningMsg" style="display:none;margin:0px 0px;">&nbsp;</span>
+    </form>
+    <br/>
+</div>
+<div id="addClippingEntityMenu" style="display:none;" onclick="Event.stop(event);">
+<div style="width:270px;">请输入抓取地址链接，您加入的栏目将会被管理员审核并可能被共享</div>
+    <form action="" method="post" onsubmit="return openClippingPage(this,'pnull.portal?.pen=personnelWebclippingBaseEntity&.pmn=config&action=viewWebClippingContent');">
+        <input id="url<portlet:namespace />" type="text" name="url" size="35" value="http://"/>&nbsp;&nbsp;<input type="button" value="添加" onclick="return openClippingPage(this.form,'pnull.portal?.pen=personnelWebclippingBaseEntity&.pmn=config&action=viewWebClippingContent');"/><span class="warningMsg" style="display:none;margin:0px 0px;">&nbsp;</span>
+        <input name='clipParam' type="hidden" id="clipParam<portlet:namespace />"/>
+    </form>
+    <br/>
+</div>
+<form action="pageAdd.portal" method="post" id="pageAddForm">
+    <input type="hidden" name="pageTitle"/>
+    <input type="hidden" name="parentPageName"/>
+</form>
+<a href="#" id="showMenuButton" onclick="return toggleMenuMode();" title="点击切换到菜单模式" style="display:none;"></a>
+<div id="buttonToolTip" style="display:none;">特别提示:你可以点击这个按钮切换到隐藏菜单模式，只显示您想看的内容！<a href="#" onclick="return closeToolTip();" title="关闭"></a></div>
+<script type="text/javascript">initBottomState();</script>
+</div>
+<script type="text/javascript">Object.extend(Portal,{pageName:'p368',pageLayout:'twoColumnPageLayout',isFixed:true,hasLogin:true});</script>
+<script type="text/javascript" src="script/bottom.js?v=1.00"></script>
+</body>
+</html>
